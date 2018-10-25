@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kayeswap.shahajjo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <activity android:name=".Welcome" />
+        <activity android:name=".Donor_Reg" />
+        <activity android:name=".Blood_Request" />
+        <activity android:name=".AB_Positive" />
+        <activity android:name=".B_Positive" />
+        <activity android:name=".O_Positive" />
+        <activity android:name=".Blood_Group" />
+        <activity android:name=".Blood_Bank" />
+        <activity android:name=".B_Negative" />
+        <activity android:name=".O_Negative" />
+        <activity android:name=".AB_Negative" />
+        <activity android:name=".Blood_Reg_Page" />
+        <activity android:name=".A_Negative" />
+        <activity android:name=".A_Positive" />
+        <activity android:name=".Agreement_User" />
+    </application>
+
+</manifest>

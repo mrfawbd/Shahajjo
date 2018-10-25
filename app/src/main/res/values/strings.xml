@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_id">411791509231092</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">fae5a4dad2ef2ac0148a6651abc1bea5</string>
+    <string name="ak_login_protocol_scheme">ak411791509231092</string>
+    <string name="app_name">SHAHAJJO</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="forgot">Forgot Or Lost Your Password ?</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="btn_ContactUs">Contact Us</string>
+    <string name="btn_back">BACK</string>
+    <string name="btn_about">ABOUT</string>
+    <string name="minimum_password"> You Have To Give Atleast 6 Password</string>
+    <string name="auth_failed"> Login Error! Try Again?</string>
+    <string name="title_activity_blood__bank">Blood_Bank</string>
+    <string name="title_activity_hospital__booking">Hospital_Booking</string>
+    <string name="title_activity_tutor">Tutor</string>
+    <string name="title_activity_house">House</string>
+    <string name="blood">Blood Group</string>
+    <string name="dev">Developed By Kayes Fahim</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/8691691433</string>
+    <string name="version">Version 2.0.0</string>
+    <string name="privacy">SHAHAJJO is a helpfull apps, you want to be
+        a donor so that u have to give some information, like
+        your name, phone, blood group and location.
+        your information will show in public for helfull
+        purpose.it will affective or effective Admin will Not
+        responsible. you give information for your own wish.
+        if you agree please read next rules, wise exit please.
+    </string>
+    <string name="rules">1. Write Full Name Or Surname(Surname suitable)\n
+    2. Write Your Phone Number With your Country Code\n
+    3. Write Blood Group Like A+, A-, AB+,AB- (Block Latter)\n
+    4. Dont Write Like A positve, ab(+) ve \n
+    5. Location Like Bashundhar, Dhaka or Gulshan Dhaka\n
+    6. Dont write 240, abc road, xyz, dhaka - 1000\n
+    7. Outsite Of Dhaka Write Like UPzilla name, District Name</string>
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="start_phone_auth">Start</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+</resources>

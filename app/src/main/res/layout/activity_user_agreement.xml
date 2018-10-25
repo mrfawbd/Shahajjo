@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/privacy"
+    android:fillViewport="true"
+    tools:context=".Agreement_User">
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/policyt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#990000"
+        android:textSize="30dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:text="Privacy Policy"/>
+
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/policy"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/policyt"
+        android:text="@string/privacy"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/rt"
+        android:textColor="#990000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="** Rules **"
+        android:layout_below="@id/policy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:textStyle="italic"
+        android:textColor="@color/input_register_bg"
+        android:id="@+id/rules"
+        android:textSize="17dp"
+        android:layout_below="@id/rt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rules"/>
+
+
+
+
+    <Button
+            android:layout_below="@id/rules"
+        android:id="@+id/rbtnadd"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        style="@style/FirebaseUI.Button"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Agree With Our Terms and Condition"/>
+
+
+
+ </RelativeLayout>
+    </ScrollView>
